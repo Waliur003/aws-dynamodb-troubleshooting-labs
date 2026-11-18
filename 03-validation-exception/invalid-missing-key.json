@@ -1,0 +1,5 @@
+{
+  "customer": {"S": "Karim"},
+  "status": {"S": "Pending"},
+  "amount": {"N": "200"}
+}

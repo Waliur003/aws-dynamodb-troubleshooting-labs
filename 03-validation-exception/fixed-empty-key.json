@@ -1,0 +1,5 @@
+{
+  "order_id": {"S": "ORD-3004"},
+  "customer": {"S": "Nadia"},
+  "status": {"S": "Pending"}
+}
