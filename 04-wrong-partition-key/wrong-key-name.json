@@ -1,0 +1,4 @@
+{
+  "customerId": {"S": "CUST-1001"},
+  "order_id": {"S": "ORD-4001"}
+}
