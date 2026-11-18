@@ -1,0 +1,16 @@
+# Local AWS resources
+lab01-resources.env
+
+# Generated evidence
+evidence/
+*.log
+
+# Python
+__pycache__/
+*.pyc
+
+# Credentials
+.env
+.env.*
+*.pem
+*.key

@@ -1,0 +1,24 @@
+{
+  "ddb-lab01-orders": [
+    {
+      "PutRequest": {
+        "Item": {
+          "order_id": {"S": "ORD-1001"},
+          "customer": {"S": "Rahim"},
+          "status": {"S": "Processing"},
+          "amount": {"N": "150"}
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "order_id": {"S": "ORD-1002"},
+          "customer": {"S": "Karim"},
+          "status": {"S": "Shipped"},
+          "amount": {"N": "200"}
+        }
+      }
+    }
+  ]
+}
