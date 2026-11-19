@@ -1,0 +1,36 @@
+{
+  "ddb-lab07-orders": [
+    {
+      "PutRequest": {
+        "Item": {
+          "order_id": {"S": "ORD-7001"},
+          "customer_id": {"S": "CUST-1001"},
+          "created_at": {"S": "2026-11-19T10:00:00Z"},
+          "status": {"S": "PENDING"},
+          "amount": {"N": "150"}
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "order_id": {"S": "ORD-7002"},
+          "customer_id": {"S": "CUST-1002"},
+          "created_at": {"S": "2026-11-19T10:05:00Z"},
+          "status": {"S": "SHIPPED"},
+          "amount": {"N": "200"}
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "order_id": {"S": "ORD-7003"},
+          "customer_id": {"S": "CUST-1001"},
+          "status": {"S": "PROCESSING"},
+          "amount": {"N": "300"}
+        }
+      }
+    }
+  ]
+}
