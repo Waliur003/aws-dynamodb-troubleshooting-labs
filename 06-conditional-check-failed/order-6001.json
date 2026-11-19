@@ -1,0 +1,7 @@
+{
+  "order_id": {"S": "ORD-6001"},
+  "customer": {"S": "Rahim"},
+  "status": {"S": "PENDING"},
+  "version": {"N": "1"},
+  "amount": {"N": "150"}
+}

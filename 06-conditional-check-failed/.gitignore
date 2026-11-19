@@ -1,0 +1,9 @@
+evidence/
+lab06-resources.env
+*.log
+__pycache__/
+*.pyc
+.env
+.env.*
+*.pem
+*.key
