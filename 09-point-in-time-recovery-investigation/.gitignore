@@ -1,0 +1,10 @@
+evidence/
+lab09-resources.env
+recovery-point.env
+*.log
+.env
+.env.*
+*.pem
+*.key
+__pycache__/
+*.pyc
