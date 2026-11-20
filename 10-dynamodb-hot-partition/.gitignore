@@ -1,0 +1,10 @@
+.venv/
+evidence/
+lab10-resources.env
+__pycache__/
+*.pyc
+*.log
+.env
+.env.*
+*.pem
+*.key
